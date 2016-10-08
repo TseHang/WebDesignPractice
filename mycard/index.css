@@ -20,7 +20,7 @@ body {
 
   background-color: #FFFEF4;
   box-sizing: border-box;
-  
+
 }
 
 .main{
@@ -207,4 +207,40 @@ body {
 		border-radius: 100% 0 100% 0;
 		opacity:1;
 	}
+}
+
+
+@media screen and (max-width: 1200px){
+	.main{
+		width:70%;
+		height:80%;
+	}
+}
+
+@media screen and (max-width: 720px){
+	
+	.bighead{
+		right:0%;
+		width:50%;
+	}
+
+	.hello_text{
+		position:relative;
+	}
+
+
+	.wrap:hover > .wrap-profile{
+		position:relative;
+		right:0%;
+		opacity:1;
+	}
+
+	.wrap:hover > .bighead{
+		width:60%;
+	}
+
+	#obj_title,.inline_text{
+		text-align: center;
+	}
+	
 }
