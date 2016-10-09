@@ -60,6 +60,12 @@ body {
 	animation:typing 6s steps(18) infinite,caret 0.6s steps(1) infinite;
   -webkit-animation: typing 6s steps(18) infinite,caret 0.6s steps(1) infinite;
 }
+
+.hello_text > span{
+	font-weight:bold;
+	font-size:38px;
+}
+
 @keyframes typing{
   from{width:0;}
   70%{width:325px;opacity:0.5;}
@@ -212,11 +218,6 @@ body {
 		border-radius: 0% 100% 0% 100%;
 		opacity: 0.5;
 	}
-
-	50%{
-		border-radius: 100% 0 100% 0;
-		opacity:1;
-	}
 }
 
 
@@ -236,6 +237,10 @@ body {
 
 	.hello_text{
 		position:relative;
+		font-size:17px;
+	}
+	.hello_text > span{
+		font-size:30px;
 	}
 
 	#obj_title , .inline_text , .bighead{
