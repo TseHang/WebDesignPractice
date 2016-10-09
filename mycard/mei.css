@@ -62,8 +62,8 @@ body {
 }
 @keyframes typing{
   from{width:0;}
-  70%{width:325px;opacity:0.5;}
-  100%{width:325px;opacity:1;}
+  70%{width:345px;opacity:0.5;}
+  100%{width:345px;opacity:1;}
 }
 @keyframes caret{
   50%{border-color:transparent;}
