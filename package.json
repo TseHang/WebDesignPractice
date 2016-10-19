@@ -2,7 +2,7 @@
   "name": "web-design-practice",
   "version": "1.0.0",
   "description": "For 互動式網頁課程 hw、project",
-  "main": "index.js",
+  "main": "dist/js/*.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
