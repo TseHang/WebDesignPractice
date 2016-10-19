@@ -2,13 +2,11 @@
 
 <html style = "height:100%;width:100%;margin:0px;">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title> Mei || WebDesignPractice</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="WebDesignPractice" content="yes" />
-  <link rel="stylesheet" href = "mei.css">
+	{{> head}}
+  <title> {{meicard.title}} || WebDesignPractice</title>
+  <link rel="stylesheet" href = "./dist/css/meicard.css">
   <style>
-  	@import 'https://fonts.googleapis.com/css?family=Exo+2|Orbitron';
+  	@import  url('{{mycard.font}}');
   </style>
 </head>
 <body>
@@ -21,7 +19,7 @@
 
 		<h2 class ="hello_text">“ Hello , I'm a&nbsp;&nbsp;<span>Flower</span> ”</h2>
 
-		<img class = "bighead" src = "images/mei.jpg" >
+		<img class = "bighead" src = "./dist/img/mei.jpg" >
 		<div class = "wrap-profile">
 			<div class = "profile">
 				<h2 class = "name">Xinmei Lu <span id = "chinese_name">(笨蛋玫)</span></h2>
@@ -39,7 +37,7 @@
 
 <!-- Musuic -->
 <audio preload loop autoplay>
-	<source src = "bgm/bgm.mp3" type="audio/mp3">
+	<source src = "./dist/bgm/bgm_mycard.mp3" type="audio/mp3">
 </audio>
 
 </body>
